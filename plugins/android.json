@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pylonproducts.wifiwizard": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-browsersync": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-gyroscope": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-webpack-transpiler": {
+      "CONFIG": "typescript",
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.acrovia.cuatroelementos"
+    }
+  },
+  "dependent_plugins": {}
+}

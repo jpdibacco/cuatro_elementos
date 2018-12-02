@@ -1,0 +1,66 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-browsersync": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-browsersync"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-gyroscope": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-gyroscope@0.1.4"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device-motion": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device-motion@1.2.5"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-webpack-transpiler": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-webpack-transpiler@0.3.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-x-toast": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-x-toast"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.pylonproducts.wifiwizard": {
+    "source": {
+      "type": "registry",
+      "id": "wifiwizard@^0.2.11"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

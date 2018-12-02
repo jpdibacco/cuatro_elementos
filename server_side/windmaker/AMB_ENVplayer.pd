@@ -1,0 +1,2 @@
+#N canvas 169 280 755 224 10;
+#X obj 51 47 noisestudy;

@@ -1,0 +1,37 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pylonproducts.wifiwizard": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-browsersync": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-gyroscope": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-webpack-transpiler": {
+      "CONFIG": "typescript",
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "com.acrovia.ensambleapp"
+    }
+  },
+  "dependent_plugins": {}
+}

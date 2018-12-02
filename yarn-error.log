@@ -1,0 +1,114 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/opt/android-sdk/tools/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.11.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/com.pylonproducts.wifiwizard: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:129018:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:129990:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "com.acrovia.ensambleapp",
+    "displayName": "EnsambleApp",
+    "version": "1.0.0",
+    "description": "Ensamble App.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "browser-sync": "^2.24.4",
+      "cheerio": "^0.19.0",
+      "com.pylonproducts.wifiwizard": "~0.2.11",
+      "cordova-android": "^7.0.0",
+      "cordova-browser": "^5.0.3",
+      "cordova-plugin-browsersync": "^1.1.0",
+      "cordova-plugin-device-motion": "^1.2.5",
+      "cordova-plugin-gyroscope": "^0.1.4",
+      "cordova-plugin-splashscreen": "^5.0.2",
+      "cordova-plugin-webpack-transpiler": "^0.3.1",
+      "cordova-plugin-whitelist": "^1.3.3",
+      "cordova-plugin-x-toast": "^2.6.2",
+      "csp-parse": "0.0.2",
+      "elementtree": "^0.1.7",
+      "glob": "^5.0.15",
+      "npm": "^2.15.12",
+      "plist": "^1.2.0",
+      "q": "^1.5.1",
+      "wifiwizard": "^0.2.11"
+    },
+    "cordova": {
+      "plugins": {
+        "cordova-plugin-whitelist": {},
+        "cordova-plugin-browsersync": {},
+        "cordova-plugin-gyroscope": {},
+        "cordova-plugin-device-motion": {},
+        "cordova-plugin-webpack-transpiler": {
+          "CONFIG": "typescript"
+        },
+        "cordova-plugin-splashscreen": {},
+        "cordova-plugin-x-toast": {},
+        "com.pylonproducts.wifiwizard": {}
+      },
+      "platforms": [
+        "browser",
+        "android"
+      ]
+    },
+    "devDependencies": {
+      "babel-core": "^6.23.1",
+      "babel-loader": "^6.3.2",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-polyfill": "^6.23.0",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-es2016": "^6.22.0",
+      "babel-preset-es2017": "^6.22.0",
+      "babel-preset-react": "^6.23.0",
+      "copy-webpack-plugin": "^4.0.1",
+      "core-js": "^2.4.1",
+      "css-loader": "^0.27.3",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
+      "file-loader": "^0.10.1",
+      "html-webpack-plugin": "^2.28.0",
+      "imports-loader": "^0.7.1",
+      "json5": "^0.4.0",
+      "json5-loader": "^1.0.1",
+      "node-sass": "^4.5.0",
+      "raw-loader": "^0.5.1",
+      "resolve-url-loader": "^2.0.2",
+      "sass-loader": "^6.0.3",
+      "style-loader": "^0.13.2",
+      "ts-loader": "^2.0.1",
+      "typescript": "^2.2.1",
+      "webpack": "^2.2.1",
+      "worker-loader": "^0.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
