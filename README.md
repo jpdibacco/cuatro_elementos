@@ -22,7 +22,7 @@ Bellow you can find a graphical representation of the project idea:
    * pip install -r requirements.txt
    * On linux use app_linux.py
 * You can share wifi with linux with "create_ap" tool: https://github.com/oblique/create_ap , make sure you have wireless AP mode features in your wifi device.
-* to share wifi you can go: sudo create_ap -n wlp3s0 Nature Nature123 -g 192.168.0.1
+* to share wifi you can go: sudo create_ap -n wlx4c0fc712d23c Nature Nature123 -g 192.168.0.1
 
 
 ### Todos
