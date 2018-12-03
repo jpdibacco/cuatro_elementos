@@ -1,4 +1,5 @@
-# ensamble_espontaneo_app
+
+# cuatro elementos app
 ## 1) Install server_side requirements::
    * pip install -r requirements.txt
    * On linux use app_linux.py
