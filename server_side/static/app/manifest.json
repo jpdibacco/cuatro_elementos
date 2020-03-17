@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CuatroElementos",
+  "short_name": "CuatroElementos",
+  "version": "com.jpdibacco.cuatroelementos",
+  "description": "Cuatro Elementos.",
+  "author": "Juan Patricio Di Bacco",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

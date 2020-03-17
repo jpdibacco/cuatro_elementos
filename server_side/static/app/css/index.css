@@ -1,0 +1,195 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    /* padding-top: 54px; */
+    z-index: 1;
+    background: #000000 !important;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) {
+    /*body {
+        padding-top: 56px;
+    }*/
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    display: none;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.hexagon {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 8.5%;
+    /*padding: 60% 30%;*/
+    height: 400px;
+    width: 175px;
+    /* transform: rotate(30deg) skewY(30deg) scaleX(.866); */
+    transform: scaleX(.8)scaleY(.4)rotate(90deg);
+    /* background: red; */
+    position: absolute;
+    top: -150px;
+}
+
+.hexagon:before,
+.content:after {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    transform: scaleX(3.155) skewY(-30deg) rotate(-30deg);
+    background: linear-gradient(30deg, rgb(58, 154, 229), rgb(82, 224, 224));
+    background-size: cover;
+    content: '';
+}
+
+.newcol {
+    top: -130px
+}
+
+.newcol:before,
+.content:after {
+    background: linear-gradient(30deg, rgba(240, 27, 78, 1), rgb(224, 82, 167));
+}
+
+.shifted {
+    top: -115px;
+    left: 20px;
+}
+
+.shifted:before {
+    background: linear-gradient(30deg, rgba(58, 154, 229, 0.43), rgba(82, 224, 196, 0.79));
+    background-blend-mode: multiply;
+}
+
+#mainpage {
+    min-height: 100%;
+    height: 100%;
+    /* height: 100%; */
+    /* background-color: rgba(0, 0, 0, .3); */
+}
+
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+/*#conectar {
+    border-radius: 50%;
+    height: 90px;
+    color: #FFFFFF;
+
+}*/
+#conectar {
+    border-radius: 29%;
+    height: 59px;
+    width: 100px;
+    color: #000;
+    text-align: center;
+    padding-top: 34px;
+    background: #FFF;
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/*canvas {
+    width: 100% !important;
+    overflow: hidden;
+}*/
+canvas{
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* canvas {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 100px #4162a9;
+    transform: translateZ(0);
+    z-index: -1;
+} */
